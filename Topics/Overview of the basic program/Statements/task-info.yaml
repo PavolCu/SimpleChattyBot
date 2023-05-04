@@ -1,0 +1,24 @@
+type: choice
+is_multiple_choice: true
+options:
+- text: "The method <b>main</b> can have another name (<b>start</b>, <b>run</b>, <b>program</b>)."
+- text: The <b>main</b> method can be placed outside a class.
+- text: " A class containing the <b>main</b> method can have any valid name (<b>Main</b>,\
+    \ <b>App</b>, <b>Demo</b> and so on)."
+- text: To display a string we pass it to <b>System.out.println(...)</b>.
+files:
+- name: src/Task.java
+  visible: true
+  text: |
+    // You can experiment here, it won’t be checked
+
+    public class Task {
+      public static void main(String[] args) {
+        // put your code here
+      }
+    }
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/3240#comment
+status: Solved
+record: -1
+local_check: false
