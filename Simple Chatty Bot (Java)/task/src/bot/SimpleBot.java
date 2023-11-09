@@ -12,7 +12,7 @@ public class SimpleBot {
         count();
         test();
         end();
-    }
+    } 
 
     static void greet(String assistantName, String birthYear) {
         System.out.println("Hello! My name is " + assistantName + ".");
@@ -51,25 +51,16 @@ public class SimpleBot {
         System.out.println("3. To determine the execution time of a program.");
         System.out.println("4. To interrupt the execution of a program.");
 
-        int i = 2;
 
-        do {
-            int number = scanner.nextInt();
-            System.out.println("Please, try again.");
-            int anotherN = scanner.nextInt();
-            System.out.println("Please, try again.");
-            int anotherN2 = scanner.nextInt();
-            System.out.println("Please, try again.");
-            int anotherN3 = scanner.nextInt();
-            System.out.println("Please, try again.");
-
-        } while (i != 2);
-
-
-
+        while (true) {
+            int choice = scanner.nextInt();
+            if (choice == 2) {
+                break;
+            } else {
+                System.out.println("Please, try again.");
+            }
         }
-
-
+    }
 
     static void end() {
         System.out.println("Congratulations, have a nice day!"); // Do not change this text

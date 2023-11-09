@@ -1,21 +1,21 @@
 type: code
 custom_name: Assignments
 files:
-- name: src/Main.java
-  visible: true
-  text: |-
-    class Main {
-        public static void main(String[] args) {
-            // Assign values to these four variables
-            int one;
-            int two;
-            int three;
-            int four;
-
-            System.out.printf("%d %d %d %d", one, two, three, four);
-        }
-    }
-  learner_created: false
+  - name: src/Main.java
+    visible: true
+    text: |-
+      class Main {
+          public static void main(String[] args) {
+              // Assign values to these four variables
+              int one;
+              int two;
+              int three;
+              int four;
+      
+              System.out.printf("%d %d %d %d", one, two, three, four);
+          }
+      }
+    learner_created: false
 feedback_link: https://hyperskill.org/learn/step/2486#comment
 status: Solved
 feedback:

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-04T21:37:18" hostname="MacBook-Pro-uzivatela-Cuninka.local" time="0.284">
+<testsuite name="Tests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-17T11:42:33" hostname="MacBook-Pro-uzivatela-Cuninka.local" time="0.13">
   <properties/>
-  <testcase name="start" classname="Tests" time="0.284"/>
+  <testcase name="start" classname="Tests" time="0.13"/>
   <system-out><![CDATA[?[1;31m
 Start test 1?[0m
 Hello! My name is Aid.
@@ -37,10 +37,6 @@ Why do we use methods?
 > 1
 Please, try again.
 > 2
-Please, try again.
-> 3
-Please, try again.
-> 4
 Congratulations, have a nice day!
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
